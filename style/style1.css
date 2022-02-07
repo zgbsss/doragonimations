@@ -1,0 +1,88 @@
+  header{
+    background-color: #F9DDE5;
+    margin-bottom: 60px;
+  }
+  
+  body{
+
+    font-family: 'Lato', sans-serif;
+
+    font: #1C1610;
+
+    margin: 0px;
+
+    padding: 0px;
+
+    background-color: #FCEEF2;
+
+    text-align: center;
+
+
+  }
+
+  #check{
+    display: none;
+  }
+
+  #icone{
+    cursor: pointer;
+    padding: 13px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  img{  
+    border-radius: 30px;
+  }
+
+ .coluna{
+    float: center;
+    width: 33.33%;
+  }
+
+ .row::after{
+
+    content: "";
+
+    clear: both;
+
+    display: table;
+
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .column{
+
+      width: 100%;
+
+    }
+
+  }
+
+  .Caixa{
+      width: 800px;
+      height: 170px;
+      padding: 10px;
+      border: 5px solid gray;
+      margin: 0;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  .parallax {
+    background-image: url(https://i.pinimg.com/originals/f4/62/80/f462805831046b335becdf4057c63759.jpg) ;    
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    article{
+      display: inline-block;
+      padding: 100px;
+    }
+
+
